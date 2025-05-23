@@ -1,0 +1,300 @@
+/* [project]/app/page.css [app-client] (css) */
+body {
+  background-color: wheat;
+}
+
+.header-section .nav-container {
+  z-index: 999;
+  background-color: #191818;
+  width: 100%;
+  padding: 0 4vh;
+  position: fixed;
+  top: 0;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 180vh;
+  height: 8vh;
+  margin: 0 auto;
+  display: flex;
+}
+
+.logo img {
+  width: auto;
+  height: 6vh;
+}
+
+.nav-links {
+  color: #ff4500;
+  gap: 4vh;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li a {
+  color: #ff4500;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.nav-links li .signup-btn {
+  cursor: pointer;
+  color: #fff;
+  background-color: #ff4500;
+  border: none;
+  border-radius: .5vh;
+  width: 20vh;
+  height: 30vh;
+}
+
+.info-container {
+  color: #000;
+  margin-top: 10vh;
+  font-weight: bold;
+}
+
+.info-container .heading-1 {
+  color: #000;
+  margin-top: 1vh;
+  font-size: 6vh;
+  font-weight: bold;
+}
+
+.info-container .heading-1 .text-black {
+  color: #000;
+  font-size: 6vh;
+  font-weight: bold;
+}
+
+.info-container .heading-1 .text-orangered {
+  color: #ff4500;
+  font-size: 6vh;
+  font-weight: bold;
+}
+
+.info-container .para1 {
+  color: #000;
+  margin-top: 6vh;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.info-section {
+  display: flex;
+}
+
+.diet-container .heading-1 {
+  text-align: center;
+  color: #000;
+  margin-top: 11vh;
+  font-size: 6vh;
+  font-weight: bold;
+}
+
+.diet-container h1 {
+  text-align: center;
+  color: #000;
+  margin-top: 5vh;
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.diet-container .diet-logo {
+  color: #000;
+  margin-top: 5vh;
+}
+
+.diet-container .calories-input-container {
+  text-align: center;
+  color: #000;
+  margin-top: 4vh;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.diet-container .calories-input-container span {
+  color: #000;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.diet-container .calories-input-container input {
+  border: .2vh solid #ff4500;
+  border-radius: .5vh;
+  gap: 2vh;
+  width: 7vh;
+  height: 3.5vh;
+}
+
+.diet-container .meal-input-container {
+  text-align: center;
+  color: #000;
+  margin-top: 4vh;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.diet-container .meal-input-container span {
+  color: #000;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.diet-container .meal-input-container input {
+  border: .2vh solid #ff4500;
+  border-radius: .5vh;
+  gap: 2vh;
+  width: 5vh;
+  height: 3.5vh;
+}
+
+.diet-container .diet-options {
+  background-color: #ecffff;
+  flex-flow: wrap;
+  gap: 1rem;
+  width: 110vh;
+  height: 90vh;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.diet-container .diet-btns {
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  gap: 6vh;
+  margin-top: 5vh;
+  display: flex;
+}
+
+.diet-container .diet-btns .diet-button {
+  background-color: #0000;
+  border: .1vh solid #000;
+  width: 16vh;
+  height: 15vh;
+}
+
+.diet-container .diet-btns .diet-button image {
+  align-items: center;
+}
+
+.diet-container .diet-btns .diet-button img {
+  width: 8vh;
+  height: 8vh;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.diet-button {
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  margin-top: 5vh;
+}
+
+.diet-button span {
+  color: #000;
+  margin-top: 1vh;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.diet-button img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.diet-options .nutri-value {
+  color: #000;
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+#generate-btn {
+  color: #f5f5f5;
+  background-color: #ff4500;
+  border: none;
+  border-radius: 1vh;
+  width: 15vh;
+  height: 7vh;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.diet-container .discription-container {
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.discription-container .discription {
+  color: #000;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.discription-container #register-btn {
+  color: #f5f5f5;
+  background-color: #ff4500;
+  border: none;
+  border-radius: 1vh;
+  width: 40vh;
+  height: 6vh;
+  margin-top: 5vh;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #fff;
+}
+
+.nav-links li button:hover {
+  color: #ff4500;
+  background-color: #fff;
+}
+
+.diet-options .diet-btns .diet-button:hover {
+  color: #ff4500;
+  background-color: #fff;
+  border: .1vh solid #ff4500;
+  width: 20vh;
+  height: 18vh;
+  transition: all .5s ease-in-out;
+}
+
+#generate-btn:hover {
+  color: #ff4500;
+  background-color: #fff;
+  border: .1vh solid #ff4500;
+  width: 16vh;
+  height: 8vh;
+  transition: all .4s ease-in-out;
+}
+
+#register-btn:hover {
+  color: #ff4500;
+  background-color: #fff;
+  border: .1vh solid #ff4500;
+  width: 45vh;
+  height: 7vh;
+  transition: all .4s ease-in-out;
+}
+
+
+/*# sourceMappingURL=app_page_88deed31.css.map*/
