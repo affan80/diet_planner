@@ -1,0 +1,82 @@
+body{
+  background-color: white;
+}
+
+/* header section */
+.header-section .nav-container{
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; */
+    width: 100%;
+    padding: 0 4vh;
+    background-color: rgb(25, 24, 24);
+  }
+  
+  /* Navbar layout */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    max-width: 180vh;
+    margin: 0 auto;
+  }
+  
+  /* Logo section */
+.logo img {
+    height: 6vh;
+    width: auto;
+  }
+  
+  /* Nav links */
+.nav-links {
+    color: orangered;
+    display: flex;
+    list-style: none;
+    gap: 4vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+.nav-links li a {
+    text-decoration: none;
+    color: #ff4500;
+    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+.nav-links li .signup-btn{ 
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 0.5vh;
+    width: 20vh;
+    height: 30vh;
+  }
+
+.about-section{
+
+}
+
+.about-container{
+    color:black;
+    margin-top: 7vh; 
+    text-align:center;
+}
+
+
+
+ .about-container h1{
+   font-size:4vh;
+   font-weight: bold;
+  }
+
+.about-container p{
+  font-size:1.7vh;
+  font-weight:bold;
+  padding: 5vh;
+}

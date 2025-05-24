@@ -15,7 +15,7 @@ export default function Header() {
                                <Image src={logopBB2RZ6y} alt="logo" width={100} height={100} />
                             </div>
                             <ul className="nav-links">
-                                <li><a href="#How it works">How It Works</a></li>
+                                <li> <Link href="/About_page"><span>How It Works</span></Link></li>
                                 <li><a href="#Browse food">Browse Food</a></li>
                                 <li><a href="#Supppoeted Diets">Suppported Diets</a></li>
                                 <li><a href="#For Profestional">For Profestionals</a></li>
@@ -31,4 +31,4 @@ export default function Header() {
         </section>
         );
     }
-    
+

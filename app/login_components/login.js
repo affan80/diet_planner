@@ -20,7 +20,7 @@ export default function Login(){
         </div>
         
         <div className = "button-container">
-            <button> Log In</button>
+            <button>Log In</button>
             
         </div>
       </div>

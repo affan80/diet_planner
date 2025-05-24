@@ -1,0 +1,71 @@
+/* [project]/app/About_page/about_style.css [app-client] (css) */
+body {
+  background-color: #fff;
+}
+
+.header-section .nav-container {
+  background-color: #191818;
+  width: 100%;
+  padding: 0 4vh;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 180vh;
+  height: 8vh;
+  margin: 0 auto;
+  display: flex;
+}
+
+.logo img {
+  width: auto;
+  height: 6vh;
+}
+
+.nav-links {
+  color: #ff4500;
+  gap: 4vh;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li a {
+  color: #ff4500;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.nav-links li .signup-btn {
+  cursor: pointer;
+  color: #fff;
+  background-color: #ff4500;
+  border: none;
+  border-radius: .5vh;
+  width: 20vh;
+  height: 30vh;
+}
+
+.about-container {
+  color: #000;
+  text-align: center;
+  margin-top: 7vh;
+}
+
+.about-container h1 {
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.about-container p {
+  padding: 5vh;
+  font-size: 1.7vh;
+  font-weight: bold;
+}
+
+
+/*# sourceMappingURL=app_About_page_about_style_b38f0ca0.css.map*/
