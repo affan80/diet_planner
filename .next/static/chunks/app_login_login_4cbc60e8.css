@@ -1,0 +1,79 @@
+/* [project]/app/login/login.css [app-client] (css) */
+.body {
+  color: #fff;
+  background-color: #000;
+}
+
+.login-section {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  text-align: center;
+  border: 2px solid #fff;
+  flex-direction: column;
+  align-items: center;
+  width: 50vh;
+  height: 50vh;
+  padding-top: 6vh;
+  display: flex;
+}
+
+.login-info h1 {
+  font-size: 4vh;
+}
+
+.login-info span {
+  color: #00f;
+}
+
+.login-info span:hover {
+  color: #ff4500;
+  transition: color .7s;
+}
+
+.input-container {
+  margin: 2vh 3vh 3vh;
+}
+
+.input-container h2 {
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.input-container .info {
+  margin-right: 12vh;
+}
+
+.input-container .password {
+  margin-top: 2vh;
+  margin-right: 20vh;
+}
+
+.input-container input {
+  border: .1vh solid #ff4500;
+  border-radius: .5vh;
+  width: 30vh;
+  height: 4vh;
+}
+
+.button-container button {
+  background-color: #ff4500;
+  border-radius: 5vh;
+  width: 23vh;
+  height: 3.8vh;
+}
+
+.button-container button:hover {
+  color: #ff4500;
+  cursor: pointer;
+  background-color: #0000;
+  border: .2vh solid #ff4500;
+  transition: all .8s;
+}
+
+
+/*# sourceMappingURL=app_login_login_4cbc60e8.css.map*/

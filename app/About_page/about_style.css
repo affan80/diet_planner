@@ -1,5 +1,5 @@
 body{
-  background-color: white;
+  background-color: wheat;
 }
 
 /* header section */
@@ -79,4 +79,48 @@ body{
   font-size:1.7vh;
   font-weight:bold;
   padding: 5vh;
+}
+
+
+#start-btn {
+  background-color: orangered;
+  color: white;
+  border-radius: 1.7vh;
+  margin-top: 5vh;
+  width: 18vh;
+  height: 3.5vh;
+  border: none;
+  transition: all 1s; /* Move transition here so it applies to both states */
+}
+
+#start-btn:hover {
+  color: black;
+  background-color: white;
+  border: 0.3vh solid orangered;
+  width: 20vh;
+  height: 4vh;
+}
+
+.info-container {
+  margin-top: 6vh;
+} 
+
+.info-container .user-manual{
+  text-align:center;
+  color:black;
+  font-size:5vh;
+  font-weight:bold;
+  font-style: bold italic;
+}
+
+.info-container .step{ 
+  font-size:3vh;
+  font-weight:bold;
+  color:black;
+  margin-top:3vh;
+}
+
+.info-container .step-info{
+  color:black;
+  font-size:2vh;
 }

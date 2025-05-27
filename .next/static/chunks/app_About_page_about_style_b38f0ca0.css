@@ -1,6 +1,6 @@
 /* [project]/app/About_page/about_style.css [app-client] (css) */
 body {
-  background-color: #fff;
+  background-color: wheat;
 }
 
 .header-section .nav-container {
@@ -65,6 +65,49 @@ body {
   padding: 5vh;
   font-size: 1.7vh;
   font-weight: bold;
+}
+
+#start-btn {
+  color: #fff;
+  background-color: #ff4500;
+  border: none;
+  border-radius: 1.7vh;
+  width: 18vh;
+  height: 3.5vh;
+  margin-top: 5vh;
+  transition: all 1s;
+}
+
+#start-btn:hover {
+  color: #000;
+  background-color: #fff;
+  border: .3vh solid #ff4500;
+  width: 20vh;
+  height: 4vh;
+}
+
+.info-container {
+  margin-top: 6vh;
+}
+
+.info-container .user-manual {
+  text-align: center;
+  color: #000;
+  font-size: 5vh;
+  font-weight: bold;
+  font-style: bold italic;
+}
+
+.info-container .step {
+  color: #000;
+  margin-top: 3vh;
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.info-container .step-info {
+  color: #000;
+  font-size: 2vh;
 }
 
 
