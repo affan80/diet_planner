@@ -256,6 +256,7 @@ body {
   width: 40vh;
   height: 6vh;
   margin-top: 5vh;
+  margin-bottom: 6vh;
   font-size: 2vh;
   font-weight: bold;
 }
@@ -271,8 +272,8 @@ body {
 
 .diet-options .diet-btns .diet-button:hover {
   color: #ff4500;
+  border: .1vh solidj orangered;
   background-color: #fff;
-  border: .1vh solid #ff4500;
   width: 20vh;
   height: 18vh;
   transition: all .5s ease-in-out;
@@ -293,7 +294,7 @@ body {
   border: .1vh solid #ff4500;
   width: 45vh;
   height: 7vh;
-  transition: all .4s ease-in-out;
+  transition: all .9s ease-in-out;
 }
 
 

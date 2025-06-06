@@ -17,4 +17,5 @@ export default function Info() {
             </div>
             <div className="info-img">
                     <Image src={planeImage} alt="logo" width={1000} height={1000} />
-            </div> </section>); }
+            </div> 
+        </section>); }

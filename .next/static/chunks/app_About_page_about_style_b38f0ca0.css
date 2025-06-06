@@ -4,9 +4,12 @@ body {
 }
 
 .header-section .nav-container {
+  z-index: 999;
   background-color: #191818;
   width: 100%;
   padding: 0 4vh;
+  position: fixed;
+  top: 0;
 }
 
 .navbar {
@@ -53,7 +56,7 @@ body {
 .about-container {
   color: #000;
   text-align: center;
-  margin-top: 7vh;
+  margin-top: 10vh;
 }
 
 .about-container h1 {
@@ -72,8 +75,8 @@ body {
   background-color: #ff4500;
   border: none;
   border-radius: 1.7vh;
-  width: 18vh;
-  height: 3.5vh;
+  width: 25vh;
+  height: 5vh;
   margin-top: 5vh;
   transition: all 1s;
 }
@@ -82,32 +85,35 @@ body {
   color: #000;
   background-color: #fff;
   border: .3vh solid #ff4500;
-  width: 20vh;
-  height: 4vh;
+  width: 29vh;
+  height: 6vh;
 }
 
 .info-container {
-  margin-top: 6vh;
-}
-
-.info-container .user-manual {
-  text-align: center;
-  color: #000;
-  font-size: 5vh;
-  font-weight: bold;
-  font-style: bold italic;
+  margin-top: 10vh;
+  display: flex;
 }
 
 .info-container .step {
   color: #000;
-  margin-top: 3vh;
+  margin-top: 5vh;
+  margin-left: 3vh;
   font-size: 3vh;
   font-weight: bold;
 }
 
 .info-container .step-info {
   color: #000;
+  margin-left: 6vh;
   font-size: 2vh;
+}
+
+#user-manual {
+  color: #000;
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 6vh;
+  font-weight: bold;
 }
 
 

@@ -8,8 +8,7 @@ export default function About(){
         <h1>How We Automate Your Meal Planning</h1>
         <p>
           Eat This Much helps you with the two 
-          most important things <br /> to make your 
-          healthy diet a success:
+          most important things <br /> to make your healthy diet a success:
         </p>
 
         <ol>

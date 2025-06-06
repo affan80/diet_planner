@@ -281,6 +281,7 @@ body {
 
 .discription-container #register-btn{
     margin-top: 5vh;
+    margin-bottom:6vh;
     width: 40vh;
     height: 6vh;
     background-color: orangered;
@@ -305,7 +306,7 @@ body {
   .diet-options .diet-btns .diet-button:hover{
     background-color: white;
     color: orangered;
-    border: 0.1vh solid orangered;
+    border: 0.1vh solidj orangered;
     width: 20vh;
     height: 18vh;
     transition: all 0.5s ease-in-out;
@@ -327,7 +328,7 @@ body {
     border: 0.1vh solid orangered;
     width: 45vh;
     height: 7vh;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.9s ease-in-out;
   }
 
 

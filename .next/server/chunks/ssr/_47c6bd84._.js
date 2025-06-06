@@ -174,8 +174,7 @@ function Info() {
                 fileName: "[project]/app/components/Info.js",
                 lineNumber: 18,
                 columnNumber: 13
-            }, this),
-            " "
+            }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/Info.js",

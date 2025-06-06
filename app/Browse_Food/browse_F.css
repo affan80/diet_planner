@@ -1,0 +1,103 @@
+body{
+  background-color: wheat;
+}
+
+/* header section */
+.header-section .nav-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    width: 100%;
+    padding: 0 4vh;
+    background-color: rgb(25, 24, 24);
+  }
+  
+  /* Navbar layout */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    max-width: 180vh;
+    margin: 0 auto;
+  }
+  
+  /* Logo section */
+.logo img {
+    height: 6vh;
+    width: auto;
+  }
+  
+  /* Nav links */
+.nav-links {
+    color: orangered;
+    display: flex;
+    list-style: none;
+    gap: 4vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+.nav-links li a {
+    text-decoration: none;
+    color: #ff4500;
+    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+.nav-links li .signup-btn{ 
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 0.5vh;
+    width: 20vh;
+    height: 30vh;
+  }
+
+.browse-section{
+  margin-top:20vh;
+}
+
+
+h1{
+    color:black;
+    font-size:7vh;
+    font-weight:bold;
+    text-align:center;
+  }
+
+
+.input-container {
+  display: flex;
+  gap: 3rem;
+  margin: 10vh;
+  color: #2d3748; /* dark gray */
+  font-family: sans-serif;
+  align-items: flex-start;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.input-group select,
+.input-group input {
+  width: 240px;
+  padding: 0.6rem;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+}
+

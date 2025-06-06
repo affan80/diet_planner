@@ -1,6 +1,7 @@
-"use client"; 
+"use client";
 import Image from 'next/image';
-import { useState } from 'react';
+import {useRouter} from 'next/navigation'
+// import {useState} from 'react'
 import ketogenicDiet from '../../app/images/ketogenic-diet.png';
 import paleoDiet from '../../app/images/paleo-diet.png';
 import vegan from '../../app/images/vegetables.png';
@@ -8,9 +9,9 @@ import vegetarain from '../../app/images/diet-food.png';
 import Mediterranean from '../../app/images/balanced-diet.png';
 
 export default function DietContainer(){
-    const [calories, setCalories] = useState(5);
-    const [meals, setMeal] = useState(5);
-
+    // const [calories, setCalories] = useState(5);
+    // const [meals, setMeal] = useState(5);
+    const router = useRouter()
     return (
         <section>
             <div className="diet-container" >
@@ -66,7 +67,7 @@ export default function DietContainer(){
                         <ul>
                           <li>At least Carbs</li>
                         </ul>
-                    j 
+                     
                     </div>
 
                     <div className='nutri-value'>
@@ -79,9 +80,12 @@ export default function DietContainer(){
                         <h1>Ready for more?</h1>
                         <span>With a free account, you can customize your preferences, track your intake, create recipes, and much more.</span>
                     </div>
-                    <button id='register-btn'>Register</button>
-                </div>
+               
+                    <button onClick={() => {
+                          router.push('./signup');
+                        }} id='register-btn'>Register</button>         
+                </div>       
             </div>
-        </section>
+      </section>
     );
 }
