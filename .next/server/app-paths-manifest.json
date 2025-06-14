@@ -1,6 +1,7 @@
 {
+  "/About_page/page": "app/About_page/page.js",
   "/Browse_Food/page": "app/Browse_Food/page.js",
   "/Supported_Diet_page/page": "app/Supported_Diet_page/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

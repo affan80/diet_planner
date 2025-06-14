@@ -8,30 +8,6 @@ const mod = __turbopack_context__.x("next/dist/compiled/next-server/app-page-tur
 
 module.exports = mod;
 }}),
-"[project]/app/images/logopBB2RZ6y.png (static in ecmascript)": ((__turbopack_context__) => {
-
-var { g: global, __dirname } = __turbopack_context__;
-{
-__turbopack_context__.v("/_next/static/media/logopBB2RZ6y.d12401ef.png");}}),
-"[project]/app/images/logopBB2RZ6y.png.mjs { IMAGE => \"[project]/app/images/logopBB2RZ6y.png (static in ecmascript)\" } [app-ssr] (structured image object, ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { g: global, __dirname } = __turbopack_context__;
-{
-__turbopack_context__.s({
-    "default": (()=>__TURBOPACK__default__export__)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$images$2f$logopBB2RZ6y$2e$png__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/app/images/logopBB2RZ6y.png (static in ecmascript)");
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$images$2f$logopBB2RZ6y$2e$png__$28$static__in__ecmascript$29$__["default"],
-    width: 160,
-    height: 137,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAA8klEQVR42gHnABj/AAAAAAAAAAAAAAAAABYLBxRxNyVsUSgbSgQCAQMAAAAAAAEBAAEBAQABBgMCBTwdFDbEYEHHkUcwjFkrHVMKBQMJAGQyIlRmMyJVYTAgVioVDiVkMSFeKhUOJn09KnY1GhIxAGs1JFhrNSRYVSodRyUSDR9aLB5SJhMNITAYECthLyBZAJFIMYaPRi+EjEUvflUqHEk8HhQ3fT0qdDUaEi+KQy6CAF0uIFNYKx1MVysdSVYrHUg7HRQwSCMYQ0wlGUZuNiVjAHE4J2N5Oyhrfj4qbno8KWdwNyZbGg0JFjcbEzJWKh1O5hQt8/CtaucAAAAASUVORK5CYII=",
-    blurWidth: 8,
-    blurHeight: 7
-};
-}}),
 "[externals]/next/dist/server/app-render/work-async-storage.external.js [external] (next/dist/server/app-render/work-async-storage.external.js, cjs)": (function(__turbopack_context__) {
 
 var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
@@ -56,18 +32,42 @@ const mod = __turbopack_context__.x("next/dist/server/app-render/work-unit-async
 
 module.exports = mod;
 }}),
-"[project]/app/support_Diets_Components/support_header.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"[project]/app/images/logopBB2RZ6y.png (static in ecmascript)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v("/_next/static/media/logopBB2RZ6y.d12401ef.png");}}),
+"[project]/app/images/logopBB2RZ6y.png.mjs { IMAGE => \"[project]/app/images/logopBB2RZ6y.png (static in ecmascript)\" } [app-ssr] (structured image object, ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, __dirname } = __turbopack_context__;
 {
 __turbopack_context__.s({
-    "default": (()=>Header)
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$images$2f$logopBB2RZ6y$2e$png__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/app/images/logopBB2RZ6y.png (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$images$2f$logopBB2RZ6y$2e$png__$28$static__in__ecmascript$29$__["default"],
+    width: 160,
+    height: 137,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAA8klEQVR42gHnABj/AAAAAAAAAAAAAAAAABYLBxRxNyVsUSgbSgQCAQMAAAAAAAEBAAEBAQABBgMCBTwdFDbEYEHHkUcwjFkrHVMKBQMJAGQyIlRmMyJVYTAgVioVDiVkMSFeKhUOJn09KnY1GhIxAGs1JFhrNSRYVSodRyUSDR9aLB5SJhMNITAYECthLyBZAJFIMYaPRi+EjEUvflUqHEk8HhQ3fT0qdDUaEi+KQy6CAF0uIFNYKx1MVysdSVYrHUg7HRQwSCMYQ0wlGUZuNiVjAHE4J2N5Oyhrfj4qbno8KWdwNyZbGg0JFjcbEzJWKh1O5hQt8/CtaucAAAAASUVORK5CYII=",
+    blurWidth: 8,
+    blurHeight: 7
+};
+}}),
+"[project]/app/About_components/about_header.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>About_H)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$images$2f$logopBB2RZ6y$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$images$2f$logopBB2RZ6y$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/app/images/logopBB2RZ6y.png.mjs { IMAGE => "[project]/app/images/logopBB2RZ6y.png (static in ecmascript)" } [app-ssr] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$images$2f$logopBB2RZ6y$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$images$2f$logopBB2RZ6y$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/app/images/logopBB2RZ6y.png.mjs { IMAGE => "[project]/app/images/logopBB2RZ6y.png (static in ecmascript)" } [app-ssr] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)");
 "use client";
 ;
@@ -75,7 +75,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navi
 ;
 ;
 ;
-function Header() {
+function About_H() {
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "w-full",
@@ -94,13 +94,13 @@ function Header() {
                                 width: 100,
                                 height: 100
                             }, void 0, false, {
-                                fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                lineNumber: 15,
+                                fileName: "[project]/app/About_components/about_header.js",
+                                lineNumber: 16,
                                 columnNumber: 32
                             }, this)
                         }, void 0, false, {
-                            fileName: "[project]/app/support_Diets_Components/support_header.js",
-                            lineNumber: 14,
+                            fileName: "[project]/app/About_components/about_header.js",
+                            lineNumber: 15,
                             columnNumber: 29
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -114,19 +114,19 @@ function Header() {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: "How It Works"
                                             }, void 0, false, {
-                                                fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                                lineNumber: 18,
+                                                fileName: "[project]/app/About_components/about_header.js",
+                                                lineNumber: 19,
                                                 columnNumber: 63
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                            lineNumber: 18,
+                                            fileName: "[project]/app/About_components/about_header.js",
+                                            lineNumber: 19,
                                             columnNumber: 38
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                    lineNumber: 18,
+                                    fileName: "[project]/app/About_components/about_header.js",
+                                    lineNumber: 19,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -135,18 +135,18 @@ function Header() {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "Browse Food"
                                         }, void 0, false, {
-                                            fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                            lineNumber: 19,
+                                            fileName: "[project]/app/About_components/about_header.js",
+                                            lineNumber: 20,
                                             columnNumber: 63
                                         }, this)
                                     }, void 0, false, {
-                                        fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                        lineNumber: 19,
+                                        fileName: "[project]/app/About_components/about_header.js",
+                                        lineNumber: 20,
                                         columnNumber: 37
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                    lineNumber: 19,
+                                    fileName: "[project]/app/About_components/about_header.js",
+                                    lineNumber: 20,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -154,13 +154,13 @@ function Header() {
                                         href: "/Supported_Diet_page",
                                         children: "Suppported Diets"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                        lineNumber: 20,
+                                        fileName: "[project]/app/About_components/about_header.js",
+                                        lineNumber: 21,
                                         columnNumber: 37
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                    lineNumber: 20,
+                                    fileName: "[project]/app/About_components/about_header.js",
+                                    lineNumber: 21,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -168,13 +168,13 @@ function Header() {
                                         href: "#For Profestional",
                                         children: "For Profestionals"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                        lineNumber: 21,
+                                        fileName: "[project]/app/About_components/about_header.js",
+                                        lineNumber: 22,
                                         columnNumber: 37
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                    lineNumber: 21,
+                                    fileName: "[project]/app/About_components/about_header.js",
+                                    lineNumber: 22,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -185,45 +185,133 @@ function Header() {
                                         className: "w-32 h-auto bg-[#ff4500] text-white rounded-full",
                                         children: "Sign Up"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                        lineNumber: 23,
+                                        fileName: "[project]/app/About_components/about_header.js",
+                                        lineNumber: 24,
                                         columnNumber: 37
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "[project]/app/support_Diets_Components/support_header.js",
-                                    lineNumber: 22,
+                                    fileName: "[project]/app/About_components/about_header.js",
+                                    lineNumber: 23,
                                     columnNumber: 33
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "[project]/app/support_Diets_Components/support_header.js",
-                            lineNumber: 17,
+                            fileName: "[project]/app/About_components/about_header.js",
+                            lineNumber: 18,
                             columnNumber: 29
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "[project]/app/support_Diets_Components/support_header.js",
-                    lineNumber: 13,
+                    fileName: "[project]/app/About_components/about_header.js",
+                    lineNumber: 14,
                     columnNumber: 25
                 }, this)
             }, void 0, false, {
-                fileName: "[project]/app/support_Diets_Components/support_header.js",
-                lineNumber: 12,
+                fileName: "[project]/app/About_components/about_header.js",
+                lineNumber: 13,
                 columnNumber: 21
             }, this)
         }, void 0, false, {
-            fileName: "[project]/app/support_Diets_Components/support_header.js",
-            lineNumber: 11,
+            fileName: "[project]/app/About_components/about_header.js",
+            lineNumber: 12,
             columnNumber: 13
         }, this)
     }, void 0, false, {
-        fileName: "[project]/app/support_Diets_Components/support_header.js",
-        lineNumber: 10,
-        columnNumber: 9
+        fileName: "[project]/app/About_components/about_header.js",
+        lineNumber: 11,
+        columnNumber: 7
+    }, this);
+}
+}}),
+"[project]/app/About_components/about.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>About)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+function About() {
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "about-section",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "about-container",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                    children: "How We Automate Your Meal Planning"
+                }, void 0, false, {
+                    fileName: "[project]/app/About_components/about.js",
+                    lineNumber: 8,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: [
+                        "Eat This Much helps you with the two most important things ",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                            fileName: "[project]/app/About_components/about.js",
+                            lineNumber: 11,
+                            columnNumber: 33
+                        }, this),
+                        " to make your healthy diet a success:"
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/About_components/about.js",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                            children: "1. Turn meal planning into an effortless and magical experience ✨"
+                        }, void 0, false, {
+                            fileName: "[project]/app/About_components/about.js",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                            children: "2. Provide an endless supply of delicious recipes specific to your needs 🍲"
+                        }, void 0, false, {
+                            fileName: "[project]/app/About_components/about.js",
+                            lineNumber: 16,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/About_components/about.js",
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    onClick: ()=>{
+                        router.push("/signup");
+                    },
+                    id: "start-btn",
+                    children: "Start a free Account"
+                }, void 0, false, {
+                    fileName: "[project]/app/About_components/about.js",
+                    lineNumber: 18,
+                    columnNumber: 7
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/About_components/about.js",
+            lineNumber: 7,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/app/About_components/about.js",
+        lineNumber: 6,
+        columnNumber: 5
     }, this);
 }
 }}),
 
 };
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__58a4ece4._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__4ee1e9e0._.js.map

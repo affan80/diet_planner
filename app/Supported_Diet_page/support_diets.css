@@ -60,6 +60,10 @@ body {
     height: 30vh;
   }
 
+  .nav-links:hover{
+    color:white;
+  }
+
   .support-section{
     color:black;
     margin-top:20vh;
@@ -95,7 +99,7 @@ body {
   display: block;
   margin: 8vh auto 9vh auto; /* auto centers horizontally */
   padding: 1vh 2vh;
-  font-size: vh;
+  font-size: 2vh;
   background-color: orangered;
   color: white;
   border: none;
@@ -105,7 +109,177 @@ body {
   
 
 #generat-btn:hover{
-  color:orangered;
-  background-color:transprant;
-  border:0.1vh;
+  color:black;
+  background-color: transparent;
+  border:0.2vh solid orangered;
+  font-size:2.5vh;
+  width: 30vh;
+  transition: all 1s
 }
+
+.GTL-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+#learn-btn {
+  border: 0.2vh solid orangered;
+  color: orangered;
+  width: 15vh;
+  height: 5vh;
+}
+
+#getstart-btn {
+  background-color: orangered;
+  color: white;
+  width: 25vh;
+  height: 5vh;
+}
+
+.browse-D{
+  margin-bottom:7vh;
+
+}
+
+.browse-D  h1{
+  color: black;
+  text-align: center;
+  font-weight:bold;
+  font-size: 7vh;
+
+}
+
+.diet-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 3vh;
+  padding: 20vh;
+}
+
+.browse-DT {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 2vh;
+    height: auto;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1.5vh;
+    align-items: center;
+  }
+
+  .diet-grid {
+    grid-template-columns: 1fr;
+    padding: 5vh 2vh;
+  }
+
+  .diet-T, .browse-D h1 {
+    font-size: 3.5vh;
+  }
+
+  .support-info {
+    font-size: 1.6vh;
+    margin: 2vh 1vh;
+  }
+
+  #generat-btn,
+  #learn-btn,
+  #getstart-btn {
+    width: 90vw;
+    font-size: 1.8vh;
+  }
+
+  .GTL-btn {
+    flex-direction: column;
+    gap: 2vh;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    gap: 2vh;
+    height: auto;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+  }
+
+  .diet-grid {
+    grid-template-columns: 1fr;
+    padding: 10vh 4vh;
+  }
+
+  .diet-T, .browse-D h1 {
+    font-size: 4vh;
+  }
+
+  #generat-btn {
+    width: 70vw;
+    font-size: 2vh;
+  }
+
+  .GTL-btn {
+    flex-direction: column;
+    gap: 2vh;
+  }
+
+  #learn-btn,
+  #getstart-btn {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .diet-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15vh 10vh;
+  }
+
+  .diet-T {
+    font-size: 5vh;
+  }
+
+  .support-info {
+    font-size: 2vh;
+  }
+}
+
+@media (min-width: 1441px) {
+  .diet-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20vh 15vh;
+  }
+
+  .diet-T {
+    font-size: 6vh;
+  }
+
+  .support-info {
+    font-size: 2.5vh;
+  }
+
+  #generat-btn,
+  #learn-btn,
+  #getstart-btn {
+    font-size: 2.2vh;
+  }
+}
+
